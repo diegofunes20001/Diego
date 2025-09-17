@@ -1,0 +1,84 @@
+/* Logout Confirmation Screen */
+.logout-info {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user-info-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #88c999;
+  text-align: center;
+}
+
+.user-info-card h3 {
+  color: #2d5016;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.user-info-card p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.session-info {
+  background: #fff3cd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #ffc107;
+}
+
+.session-info p {
+  color: #856404;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.session-info ul {
+  color: #856404;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.session-info li {
+  margin-bottom: 0.5rem;
+}
+
+.logout-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.logout-actions .btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  border: none;
+}
+
+.logout-actions .btn.primary {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  color: white;
+}
+
+.logout-actions .btn.secondary {
+  background: transparent;
+  color: #88c999;
+  border: 2px solid #88c999;
+}
+
+.logout-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
